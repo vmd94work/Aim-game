@@ -114,41 +114,43 @@ h1 {
 .refBtn:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 1200px,  991px) {
+@media (min-width: 1200px) {
   .screen {
-    width: 100vh;
+    width: 100%;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .screen {
-    width: 990px;
+    width: 100%;
+  }
+  .board {
+    width: 500px;
+    height: 500px;
   }
 }
-@media (max-width: 768px) {
-  .screen {
-    width: 760px;
-  }
-  h1 {
-    line-height: 1.4;
-    font-size: 2rem;
-  }
-}
-@media (max-width: 480px) {
-  .screen {
-    width: 480px;
-  }
+@media (min-width: 768px) and (max-width: 991px) {
   h1 {
     line-height: 1.4;
     font-size: 2rem;
   }
   .board {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 767px) {
+  h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+  .board {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 480px) {
   .screen {
-    width: 330px;
+    width: 100%;
   }
   h1 {
     line-height: 1.4;
