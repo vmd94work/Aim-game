@@ -114,3 +114,29 @@ h1 {
 .refBtn:hover {
   background: rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 690px) {
+  .screen {
+    width: 100%;
+  }
+  h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+  .board {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 330px) {
+  .screen {
+    width: 330px;
+  }
+  h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+  .board {
+    width: 100%;
+    height: 100%;
+  }
+}
