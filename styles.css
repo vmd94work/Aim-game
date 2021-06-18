@@ -114,9 +114,28 @@ h1 {
 .refBtn:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 690px) {
+@media (max-width: 1200px,  991px) {
   .screen {
-    width: 100%;
+    width: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  .screen {
+    width: 990px;
+  }
+}
+@media (max-width: 768px) {
+  .screen {
+    width: 760px;
+  }
+  h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .screen {
+    width: 480px;
   }
   h1 {
     line-height: 1.4;
@@ -136,7 +155,7 @@ h1 {
     font-size: 2rem;
   }
   .board {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 }
